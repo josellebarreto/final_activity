@@ -1,0 +1,345 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #D8E7F5;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /*background-color: #31304D;*/
+    background-color: #D8E7F5;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+nav a:hover {
+    color: #6E85AD;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    cursor: pointer;
+    word-spacing: 5px;
+}
+
+.contact {
+    margin-right: 30px;
+}
+
+.front {
+    height: 100vh;
+    background: url(../images/front.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* start of andrei's div */
+.title {
+    font-family: 'Alfa Slab One', serif;
+    background: #31304D;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.1px beige;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    line-height: 15px;
+}
+
+.title h1 {
+    word-spacing: 10px;
+}
+
+.title h2 {
+    font-size:40px;
+}
+
+.title h3 {
+    background:#CBD0DA;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 20px;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+.right {
+    display: flex;
+}
+
+.andrei,
+.joselle {
+    background-color: whitesmoke;
+    /* height: 1675px; */
+    height: 200vh;
+}
+
+.andrei-cont {
+    padding-top: 121px;
+}
+
+.andrei-about {
+    font-family: 'Permanent Marker';
+    color: #388CDC;
+    position: relative;
+    top: -148px;
+    padding-left: 110px;
+    font-weight: bold;
+    font-size: 77px;
+    /* /* transform: rotate(331deg); */
+
+}
+
+.andrei-image img {
+    border-radius: 572px;
+    height: 544px;
+    margin-left: -142px;
+    margin-top: 3px;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+
+
+
+.andrei-text {
+    color: black;
+    position: relative;
+    top: 20px;
+    right: 5px;
+    padding-left: 30px;
+    /*color: rgb(255, 255, 255);*/
+    font-size: 33px;
+    width: 520px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.andrei-name {
+    margin-top: -90px;
+    /* background-color: #0022e6; */
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 65px;
+    position: relative;
+    left: 90px;
+    margin-top: -150px;
+    /* top: -80px; */
+    text-shadow: 5px 2px #388CDC;
+    font-family: Cambria;
+}
+
+
+.andrei-edu-skill,
+.joselle-edu-skill {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    /* background-color: rgb(22, 68, 109); */
+    z-index: -1;
+}
+
+.education,
+.skills {
+    background-color: #D8E7F5;
+    color: #161A30;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid #F0ECE5;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: 126px;
+    height: 500px;
+    font-family: 'Trebuchet MS';
+}
+
+.education h1,
+.skills h1 {
+    text-decoration: underline;
+}
+
+.education h2 {
+    color: #616161;
+}
+
+.education h3,
+.skills h3 {
+    font-size: 25px;
+}
+
+/* end of andrei's div */
+
+/* start of joselle's div */
+
+.joselle-cont {
+    padding-top: 121px;
+}
+
+.joselle-about {
+    font-family: 'Permanent Marker';
+    color: #CB4F4F;
+    position: relative;
+    top: -162px;
+    font-weight: bold;
+    font-size: 77px;
+    z-index: 2;
+    display: block;
+    text-align: right;
+    right: 115px;
+}
+
+.joselle-image {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.joselle-image img {
+    border-radius: 572px;
+    height: 544px;
+    margin-top: -25px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.joselle-text {
+    /* font-family: 'Roboto Mono', monospace; */
+    color: black;
+    /*position: relative;*/
+    top: 90px;
+    left: 65px;
+    padding-left: 15px;
+    line-height: 70px;
+    /*color: rgb(255, 255, 255);*/
+    font-size: 33px;
+    width: 520px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.joselle-name {
+    margin-top: -90px;
+    /* background-color: #0022e6; */
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 65px;
+    position: relative;
+    margin-top: -200px;
+    /* top: -80px; */
+    float: right;
+    right: 320px;
+    font-family: Cambria;
+    text-shadow: 5px 2px #CB4F4F;
+}
+
+/* end of joselle's div */
+
+
+/* start of contact */
+.conact-us {
+    background-color: #D8E7F5;
+}
+
+.conact-us h1 {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode';
+    font-size: 40px;
+}
+
+
+form {
+    max-width: 500px;
+    margin-left: 25%;
+    padding-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+    color: black;
+}
+
+input,
+textarea {
+    height: 25px;
+    width: 750px;
+    font-size: 25px;
+}
+
+textarea {
+    height: 150px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 186px;
+    border-radius: 20px;
+    margin-left: 50%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+
+}
+
+/* end of contact */
+
+/* start of footer */
+footer {
+    color: #161A30;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* end of footer */
+
+/* icon config */
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24,
+        'font-size' 148;
+}
+
+#phone{
+    /* background-color: #0056b3; */
+    font-size: 20px;
+}
+
+#home{
+    font-size: 30px;
+}
